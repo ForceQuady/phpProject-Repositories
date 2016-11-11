@@ -22,9 +22,9 @@
 
 abstract class Connection{
 	protected  $RESULT_GET;
-	private $HOST = "127.0.0.1"; // <- TODO: You Host
-	private $USER = "root"; // <- TODO: You User of BD
-	private $PASSWORD = ""; // <- TODO: You Password of BD
+	private $HOST = "127.0.0.1"; // - TODO: You Host
+	private $USER = "root"; // - TODO: You User of BD
+	private $PASSWORD = ""; // - TODO: You Password of BD
 	private $DATABASE;
 
 	public function execute_Query($Query){
