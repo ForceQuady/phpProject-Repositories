@@ -21,9 +21,9 @@
  '''
  ''' -----------------------------------------------------------------------------*/
 
-
+//++IN CONFIG APP
 //Define autoload['libraries'] = array('database')
-//Config the Driver an DataBase Parameters
+//Config the Driver on DataBase Parameters
 
 //IN MODEL
 class My_DB extends CI_Model{
